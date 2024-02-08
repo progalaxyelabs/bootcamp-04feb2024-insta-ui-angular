@@ -1,0 +1,27 @@
+<div class="post">
+
+    <div class="post-header">
+        <div class="poster-header-left">
+            <img [src]="post.posterProfilePic" />
+            <span>{{post.posterName}}</span>
+        </div>
+        <div class="poster-header-right">
+            <i class="bi bi-send"></i>
+        </div>
+    </div>
+
+    <div class="post-image">
+        <img [src]="post.postImage" />
+    </div>
+
+    <div class="post-footer">
+        <div class="post-footer-left">
+            <i class="bi bi-send"></i>
+            <span>{{post.postLikes}}</span>
+        </div>
+        <div class="post-footer-right">
+            <i class="bi bi-heart"></i>
+            <i class="bi bi-chat"></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.friends {
+    display: flex;
+    flex-wrap: nowrap;
+
+    & .friend {
+        width: 50px;
+        overflow: hidden;
+        margin-right: 20px;
+
+        & .img-wrap {
+            display: flex;
+            align-items: center;
+
+            background: linear-gradient(rgb(216, 216, 6), rgb(255, 102, 0));
+            padding: 2px;
+            border-radius: 50%;
+            padding: 2px;
+
+            &.icon-wrap {                   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: white;
+                border: 2px solid black;                
+                aspect-ratio: 1 / 1 ;
+
+                & i {
+                    margin: 0;
+                    font-size: 30px;
+                    line-height: 0.5;
+                }
+            }
+        }
+
+        & img {
+            width: 100%;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        & .friend-name {
+            text-align: center;
+        }
+    }
+}
+
+i {
+    font-size: 24px;
+    line-height: 1;
+    margin-right: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+}
