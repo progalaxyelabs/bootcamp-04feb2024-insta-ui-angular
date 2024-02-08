@@ -1,27 +1,28 @@
 # InstaUiAngular
 
+Live demo session on Feb 06, 2024 as part of Free Bootcamp on Web Development.
+
+During the 50 minute live demo, participants witnessed how to use angular framework to develop the same ui that was built previous day in the [Plain HTML and CSS project](https://github.com/progalaxyelabs/bootcamp-04feb2024-insta-ui)
+
+This demo shows how to add functionality to the ui using typescript and fetch posts from [backend server](https://github.com/progalaxyelabs/bootcamp-04feb2024-insta-api) 
+
+This is the final code as of end of the demo session at 7PM IST
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm install` first to get all the node packages.
 
-## Code scaffolding
+If you do not have angular cli already installed, install angular cli globally. Refer [Angular CLI Installation](https://angular.io/guide/setup-local#install-the-angular-cli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. 
 
-## Build
+To know more about angular frontend, visit [Angular Docs](https://angular.io/docs)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Requires [api server](https://github.com/progalaxyelabs/bootcamp-04feb2024-insta-api) to be running to fetch the posts and show in the UI
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
